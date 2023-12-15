@@ -207,7 +207,7 @@ calcChromBinsRefSlow = function(query, refAssembly, binCount=3000) {
 #' @examples 
 #' ChromBins = calcChromBinsRef(vistaEnhancers, "hg19")
 calcChromBinsRef = function(query, refAssembly, binCount=3000) {
-   .validateInputs(list(refAssembly="character",
+   .validateInputs(list(refAssembly="numeric",
                            query=c("GRanges","GRangesList")))
     if (is(query, "GRangesList"))  {
         # Recurse over each GRanges object
