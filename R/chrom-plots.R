@@ -224,7 +224,7 @@ calcChromBinsRef = function(query, refAssembly, binCount=3000) {
         return(xb)
     }        
    # Bin the genome
-    chromSizes = getChromSizes(refAssembly)
+    chromSizes = refAssembly
     binnedDT = binChroms(binCount, chromSizes)
     queryDT = grToDt(query)
     setnames(binnedDT, "idCol", "chr")
