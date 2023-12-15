@@ -1,4 +1,4 @@
-Package: GenomicDistributions_modified
+Package: GenomicDistributionsMOD
 Version: 1.11.0
 Date: 2023-05-23
 Title: GenomicDistributions: fast analysis of genomic intervals with Bioconductor
