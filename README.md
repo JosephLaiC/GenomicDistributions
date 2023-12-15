@@ -23,7 +23,7 @@ BiocManager::install("GenomicDistributions")
 Or from GitHub:
 
 ```r
-devtools::install_github("databio/GenomicDistributions")
+devtools::install_github("JosephLaiC//GenomicDistributions")
 ```
 
 ### Data package
